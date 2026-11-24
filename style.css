@@ -13,10 +13,11 @@ body {
      line-height: normal;
      background-color: white;
      min-width: 100vw;
+    overflow-x:hidden;
  }
 main{
     max-width: 100%;
-    overflow-wrap: anywhere;
+    overflow-x:hidden;
 }
 
 header {
