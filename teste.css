@@ -12,6 +12,7 @@ body {
      color: black;
      line-height: normal;
      background-color: white;
+     width: 100vw;
  }
 
 header {
@@ -21,6 +22,7 @@ header {
     gap: 15px;
     padding: 5px;
     background-color: white;
+    width: 100%;
 }
 
 header nav,
@@ -47,6 +49,7 @@ footer {
 background-color: white;
 background-size: 20;
 border: 1px solid black;
+width: 100%;
 }
 
 
@@ -82,11 +85,14 @@ width: 100%;
 
 /*destaque*/
 .card{
-border: 2px solid black 10px;
+border: 1px solid black 10px;
 height: 10em;width: 10em;
 background-color: aliceblue;
 }
 
+.card img{
+    max-height: 80%;
+}
 .s1,.s2{background-color: lavender;
 }
 
@@ -98,7 +104,7 @@ padding: 8em;
 width: 100vw;
 gap: 2em;
 flex-wrap: wrap;
-min-height: 40em;
+min-height: 100vh;
 }
 /*catalogo*/
 
@@ -107,7 +113,7 @@ min-height: 40em;
     flex-direction: column;
     align-items: center;
     border-top: 3px dotted black;
-    min-height: 40em;
+    min-height: 100vh;
 }
 .lista{
     list-style: none;
@@ -180,6 +186,7 @@ margin: auto;
 min-height: 90vh; 
 text-align: center;
 background-color:#d4d4e8;
+width: 100%;
 }
 .sobre{
 text-align: left;
