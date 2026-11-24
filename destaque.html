@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raízes fortificadas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+ integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="teste.css">
+</head>
+<body>
+    <header>
+    <!--header feito para respeitar as regras de acessibilidade e boas práticas-->
+  <nav>
+  <ul>
+  <li><a href="index.html">Inicio</a></li>
+  <li><a href="#"class="border border-1 px-2 border-dark">Destaque</a></li>
+  <li><a style="color: gray;;text-decoration: line-through;" href="#">Projetos</a></li>
+  </ul>
+  </nav>
+  <span >Mulheres na História</span>
+  <nav>
+  <ul>
+  <li><a href="#catalogo">Catálogo</a></li>
+ <li><a style="color: gray;text-decoration: line-through;" href="#">mural</a></li>
+  <li><a href="sobre.html">Sobre</a></li>
+  </ul>
+  </nav>
+ </nav>
+    </header>
+    <main>
+
+<section class="container-fluid s1">
+ <div class="card"><img src="" alt="clarice lispector"><figcaption>Clarice Lispector</figcaption></div>
+ <div class="card"><img src="https://quilombocibernetico.home.blog/wp-content/uploads/2019/10/3ac94203a3b70883bf070dfcc1a8628c.jpg" alt="-angela davis-"><figcaption>Angela Davis</figcaption></div>
+ <div class="card"><img src="" alt="maria quitéria"><figcaption>Maria Quitéria</figcaption></div>
+ </section>
+
+ <section class="col-md-12 s2" id="catalogo">
+ 
+ <input type="text"
+ id="inputlupa"
+ class="barrapesq"
+ placeholder="Procurar">
+<ul class="lista">
+
+       <li class="item"><a onclick="Abrir('angela-dv')" >&#x1F5CE;</a><p >angela davis</p></li>
+       <li class="item"><a onclick="Abrir('clarice')" >&#x1F5CE;</a><p >clarice lispector</p></li>
+       <li class="item"><a onclick="Abrir('maria-q')" >&#x1F5CE;</a><p >maria quitéria</p></li>
+    
+</ul>
+
+<a class="mural" href="#"><span>* Mural *</span></a>
+
+<dialog id="docs" class="janela">
+    <div class="jheader">
+    <p>HISTÓRIA</p>
+    <button onclick="Fechar()" style="cursor: pointer;">X</button></div>
+    <div class="jmain">
+
+    <div id="artigos">
+        <article id="clarice">
+            clarice
+        </article>
+        <article id="maria-q">
+            maria
+        </article>
+        <article id="angela-dv">
+            angela
+        </article>
+    </div>
+    </div>
+</dialog>
+
+
+ </section>
+
+    </main>
+    <footer>
+ <p class="mb-0">&copy; todos os direitos reservados :) .</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
