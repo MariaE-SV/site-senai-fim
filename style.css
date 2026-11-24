@@ -16,7 +16,7 @@ body {
  }
 main{
     max-width: 100%;
-    overflow-x: hidden;
+    overflow-wrap: anywhere;
 }
 
 header {
