@@ -183,7 +183,7 @@ margin: auto;
     font-weight: bold;
     color: black;
     border: 1px solid black;
-    text-decoration: none;
+    text-decoration: line-through;
     margin-bottom: 3em;
     margin-right: 20em;
 }
