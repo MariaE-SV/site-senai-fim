@@ -13,8 +13,6 @@ body {
      line-height: normal;
      background-color: white;
      min-width: 100vw;
-    flex-wrap: wrap;
-    overflow-x: hidden;
  }
 main{
     max-width: 100%;
@@ -25,6 +23,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
+    flex-wrap: wrap;
     gap: 15px;
     padding: 5px;
     background-color: white;
