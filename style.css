@@ -92,7 +92,8 @@ width: 100%;
 /*destaque*/
 .card{
 border: 1px solid black 10px;
-height: 20em;width: 20em;
+height: 15em;width: 15em;
+border-radius: 10px;
 background-color: aliceblue;
 }
 
